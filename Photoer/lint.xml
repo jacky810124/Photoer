@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/getphoto/MyPhoto.java" />
+        <ignore path="src/tw/com/aochen/photoer/FileUtils.java" />
+    </issue>
+</lint>

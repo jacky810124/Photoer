@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Button_TakePicture">
+        <item name="android:background">#3071BB</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="Textview_text">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="NewAlbumTitleLayout">
+        <item name="android:alpha">0.7</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#DDDDDD</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyAlbumContent">
+        <item name="android:alpha">0.7</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#777</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">3dp</item>
+        <!-- <item name="android:layout_marginleft">10dp</item> -->
+    </style>
+
+    <style name="MyNewAlbumButton">
+        <item name="android:background">#255CAD</item>
+        <item name="android:textColor">#ffffff</item>
+        <!-- <item name="android:layout_margin">1dp</item> -->
+    </style>
+
+    <style name="editTextClassic" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:background">@android:drawable/edit_text</item>
+    </style>
+
+    <style name="AlbumDetails_title">
+        <item name="android:textSize">35dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#555</item>
+    </style>
+
+    <style name="AlbumDetails_other">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#999</item>
+    </style>
+
+    <style name="AlbumDetails_content">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#555</item>
+    </style>
+
+</resources>

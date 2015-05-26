@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical" >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/drawer_imageView1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher"
+            app:border_color="#EEEEEE"
+            app:border_width="2dp"
+            app:shadow="false" />
+
+        <TextView
+            android:id="@+id/drawer_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:maxLines="3"
+            android:text="jf;adsf jkldj;fjds asdfasd fds dfdsadf dfadf  dfadsf dsfads dfadsfadsfa afdfa fadsfasdfadfa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#555555"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</LinearLayout>

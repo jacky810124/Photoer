@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photoer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_newalbum">New album</string>
+    <string name="title_activity_new_album">NewAlbum</string>
+    <string name="title_activity_my_album">MyAlbum</string>
+    <string name="title_activity_edit_album">EditAlbum</string>
+
+    <!-- String in MainActivity -->
+    <string name="no_album_in_list">Oops! You do not have any album</string>
+    <!-- String in MainActivity -->
+
+
+    <!-- Toast -->
+    <string name="toast_no_cover">Did not choose album cover</string>
+    <string name="toast_edit_album_sucessfully">You have edited this album</string>
+    <string name="toast_delete_album_sucessfully">You have deleted this album</string>
+    <!-- Toast -->
+
+
+    <!-- String in NewAlbum -->
+    <string name="change_cover">Press here to change cover</string>
+
+    <!-- EditText hint -->
+    <string name="album_location_hint">Where were these photos taken?</string>
+    <string name="album_title_hint">Untitled album</string>
+    <string name="album_content_hint">Noted your memories in this album</string>
+    <string name="album_date_hint">When were these photos taken?</string>
+
+    <!-- Others -->
+    <string name="album_mylocation">Here</string>
+    <string name="album_mydate">When</string>
+    <string name="title_album_information">Album information</string>
+    <string name="title_album_story">Story</string>
+    <string name="newalbum_title_choosephoto">Photos</string>
+
+    <!-- Button -->
+    <string name="album_new">New</string>
+    <string name="album_cancel">Cancel</string>
+    <!-- String in NewAlbum -->
+
+
+    <!-- String in EditAlbum -->
+    <string name="edit_album_savebutton">Save</string>
+    <!-- String in EditAlbum -->
+
+
+    <!-- String in MyAlbum -->
+    <string name="my_album_untitled_album">Untitled Album</string>
+    <string name="my_album_no_content">(o..O)!!\nOops, this album did not have any story</string>
+    <string name="my_album_no_location">Location is unknown</string>
+    <string name="my_album_no_date">Date is unknown</string>
+    <!-- String in MyAlbum -->
+
+
+    <!-- String in AlertDialog -->
+    <string name="alert_dialog_title">What do you want to do?</string>
+    <string name="alert_dialog_edit_button">Edit</string>
+    <string name="alert_dialog_delete_button">Delete</string>
+    <string name="alert_dialog_share_button">Share</string>
+    <!-- String in AlertDialog -->
+
+
+    <!-- String in ShowcaseView -->
+    <string name="showcaseview_new_album_title">How To Use? </string>
+    <string name="showcaseview_new_album_content">Press the button which contain plus sign to create an album</string>
+    <string name="showcaseview_show_drawer_title">Show Album List</string>
+    <string name="showcaseview_show_drawer_content">Swipe right, then you can see your album list</string>
+    <!-- String in ShowcaseView -->
+
+    <string name="title_activity_about_photoer">AboutPhotoer</string>
+
+</resources>
